@@ -1,4 +1,5 @@
 import { RegisterVehicle } from '../controllers/register-vehicle'
+
 describe('RegisterVehicle', () => {
   test('If the name does not exist return 400', () => {
     const sut = new RegisterVehicle()
